@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    font-size: 18px;
+}
+
+header {
+    padding: 0;
+    background-color: #f8a475;
+}
+
+#img-titulo {
+    width: 200px;
+    display: flex;
+    margin: auto;
+}
+
+#img-nombre1,
+#img-nombre2 {
+    width: 50px;
+    display: inline;
+    margin: auto;
+    border-radius: 50%;
+    width: 5%;
+    padding-left: 10px;
+    vertical-align: middle;
+
+}
+
+.contenedor-descripciongeneral {
+    background-color: #f5f2dc;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contenedor-gestiontemas {
+    background-color: #fcd58e;
+    margin-bottom: 1px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+
+
+}
+
+h1 {
+    font-size: 30px;
+    display: block;
+    background-color: #f5f2dc;
+    box-shadow: 10px 4px 2px #c5c1a2;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    display: block;
+    padding: 20px;
+    background-color: #fcd58e;
+    box-shadow: 10px 1px 2px #868472;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 1px 2px #868472;
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 1px 2px #868472;
+
+}
+
+
+.primera-lista {
+    text-align: center;
+    padding-top: 1%;
+
+
+}
+
+#li-header1,
+#li-header2,
+#li-header3 {
+    padding: 20px;
+    display: inline;
+}
+
+
+
+/*Gestion de temas*/
+#input-nombre {
+    margin-left: 5%;
+}
+
+#input-descripcion {
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+#titulo-datosgenerales {
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+}
+
+#titulo-temas {
+    padding-top: 1%;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+
+}
+
+#titulo-datosgenerales {
+    padding-top: 1%;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+
+}
+
+#input-pregunta {
+    display: block;
+
+}
+
+#ul-listatemas,
+#ul-listatemas2 {
+    padding: 20px 30px;
+    list-style-type: circle;
+
+}
+
+#formulario2-preguntas {
+    display: inline-block;
+
+}
+
+#nivel {
+    margin-left: 170px;
+    width: 3%;
+}
+
+#preferencia{
+    margin-left: 285px;
+    width: 10%;
+}
+
+#textoPregunta{
+    margin-left: 165px;
+    width: 10%;
+}
+
+#respuestaCorrectas {
+    margin-left: 50px;
+    width: 10%;
+}
+
+#respuestaIncorrectas {
+    width: 7%;
+    margin-left: 50px;
+
+}
+
+
+
+#btn-agregarpreguntas {
+    padding: 1px;
+    width: 5%;
+}
+
+/*Gestion de preguntas*/
+
+
+.contenedor-preguntas {
+    display: inline-block;
+    background-color: #fcd58e;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#input-pregunta {
+    margin-left: 10%;
+}
+
+#titulo-altapregunta {
+    padding-top: 1%;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+
+}
+
+
+#titulo-preguntagenerales {
+    padding-top: 1%;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+
+/*Estilo tabla*/
+#tabla {
+    border: 2px solid black;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
+
+}
+
+th {
+    background-color: #eeeeed;
+    border: 1px solid #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/*Footer*/
+.contenedor3 {
+    background-color: #fcdbc6;
+    margin-top: 1%;
+}
+
+footer {
+    background-color: #fcdbc6;
+}
+
+#titulo-configuracion {
+
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#titulo-configuracion3 {
+    text-align: center;
+    justify-content: center;
+    background-color: #e07c25;
+    border: 2px solid #fff;
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+.contenedor-respuesta {
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 35%;
+
+
+}
+
+#respuesta1,
+#respuesta2,
+#respuesta3 {
+    background-color: #e07c25;
+    color: #ffff;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 10px;
+}
+
+
+
+.contenedor-botonespreguntas {
+    display: inline-block;
+    margin-left: 42%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#btn-footer1,
+#btn-footer2,
+#btn-footer3 {
+    text-align: center;
+    padding: 2px;
+}
+
+#input-temaelegir {
+    margin-left: 5%;
+    width: 200px;
+}
+
+#input-jugar {
+    margin-left: 5%;
+    width: 40px;
+}
+
+#titulo-juego {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
